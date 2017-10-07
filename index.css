@@ -1,0 +1,68 @@
+html, 
+body {
+  background-color: #222;
+}
+
+.container {
+  position: absolute;
+  width: 725px;
+  height: 457px;
+  border-radius: 10px;
+  border-right: 10px solid #F45C43;
+  overflow: hidden;
+  background-color: #eee;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.grad {
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#F45C43, #EB3349); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#F45C43, #EB3349); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#F45C43, #EB3349); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#F45C43, #EB3349); /* Standard syntax */
+}
+
+.side {
+  position: relative;
+  width: 267px;
+  height: 100%;
+}
+
+.side img {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.info {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  top: 60%;
+  left: 10%;
+}
+
+.info a,
+.info h3,
+.info h4,
+.info i {
+  color: #eee;
+}
+
+.info h3,
+.info h4 {
+  margin-top: 10px;
+}
+
+.info h3 {
+  margin-bottom: 5px;
+}
+
+.info a {
+  padding-bottom: 10px;
+}
