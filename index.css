@@ -1,68 +1,66 @@
 html, 
 body {
-  background-color: #222;
+  background-image: url('res/img/bg.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-.container {
-  position: absolute;
-  width: 725px;
-  height: 457px;
-  border-radius: 10px;
-  border-right: 10px solid #F45C43;
-  overflow: hidden;
-  background-color: #eee;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.grad {
-  background: red; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#F45C43, #EB3349); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#F45C43, #EB3349); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#F45C43, #EB3349); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#F45C43, #EB3349); /* Standard syntax */
-}
-
-.side {
-  position: relative;
-  width: 267px;
+.g-container {
+  display: table;
+  width: 100%;
   height: 100%;
+  background-color: rgba(0, 0, 0, .6);
 }
 
-.side img {
-  position: absolute;
-  width: 120px;
-  height: 120px;
-  top: 20%;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.info {
-  position: absolute;
-  width: 200px;
+.g-container .logo{
+  width: 100px;
   height: 100px;
-  top: 60%;
-  left: 10%;
 }
 
-.info a,
-.info h3,
-.info h4,
-.info i {
+.g-container .content{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+}
+
+.g-container .content h1{
+  font-size: 450%;
+}
+
+.g-container .content button{
+  margin-top: 20px;
+  margin-right: 20px;
+  font-size: 130%;
+}
+
+.g-container .info {
+  position: absolute;
+
+  bottom: 20px;
+  right: 15px;
+}
+
+.g-container .info h4,
+.g-container .info a,
+.g-container .info i {
   color: #eee;
 }
 
-.info h3,
-.info h4 {
+.g-container .info h4 {
   margin-top: 10px;
 }
 
-.info h4 {
+.g-container .info h4 {
   margin-bottom: 5px;
 }
 
-.info a {
+.g-container .info a {
   padding-bottom: 10px;
 }
+
+
