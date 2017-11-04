@@ -1,0 +1,101 @@
+body {
+  font: 400 14px 'Lato', sans-serif;
+  background-color: #09c6a2;
+  color: #fff;
+  width: 100%;
+}
+
+/* Commom use */
+h1 {
+  font-size: 5em;
+  font-weight: 900;
+}
+
+h3 {
+  padding-top: .4em;
+}
+
+.middle-center {
+  padding: 8em 0;
+  height: 100%;
+}
+
+/* Header */
+.g-nav {
+  margin-top: 2em;
+}
+
+.g-nav li a {
+  font-size: 1.5em;
+  font-weight: 700;
+  padding-bottom: .5em;
+  margin-right: 1.5em;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom .3s;
+}
+
+.g-nav li a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+/* Main body */
+
+.g-body .intro-section img,
+.g-body .ui-section img,
+.g-body .team-section img {
+  max-width: 420px;
+  max-height: 420px;
+}
+
+.g-body .intro-section,
+.g-body .ui-section {
+  max-width: 75em;
+  /* max-height: 40em; */
+}
+
+.g-body .intro-section {
+  margin: 5em auto 0;
+}
+
+.g-body .intro-section .btn-default {
+  font-size: 2em;
+  background-color: transparent;
+  border-radius: .2em;
+  border: 2px solid white;
+  margin: 2em auto 3em;
+  padding: .4em;
+}
+
+.g-body .intro-section .btn-default:hover {
+  background-color: #08b695;
+}
+
+.g-body .ui-section {
+  margin: 3em auto 0;
+}
+
+.g-body .bike-block{
+  margin: 2em auto;
+  padding: 2em 10em;
+}
+
+
+/* Footer */
+.g-footer,
+.g-footer .group {
+  height: 7em;
+}
+
+.g-footer {
+  height: 7em;
+  margin-top: 5em;
+  text-align: center;
+}
+
+.g-footer li {
+  display: inline-block;
+}
+
+.g-footer li a {
+  margin-right: 1.5em;
+}

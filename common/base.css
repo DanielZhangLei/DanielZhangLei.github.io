@@ -1,9 +1,9 @@
 /* ----------------------------------------------- */
 /* RESET */
 /* ----------------------------------------------- */
-h1, h3, h4 {margin: 0}
-body {font:normal 14px/1.5 arial,\5b8b\4f53; color: #fff;}
-a, a:hover{text-decoration:none;}
+h1, h3, h4, p{margin: 0}
+body {font:normal 12px/1.5 arial,\5b8b\4f53;}
+a, a:hover{text-decoration:none; color: #fff;}
 ul,ol {margin:0; padding:0; list-style:none;}
 
 

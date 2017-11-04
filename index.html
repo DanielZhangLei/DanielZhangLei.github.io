@@ -2,27 +2,106 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Personal site</title>
-<link href="https://fonts.googleapis.com/css?family=Nosifer&amp;subset=latin-ext" rel="stylesheet">
-  <link rel="stylesheet" href="semantic-ui/semantic.min.css">
+  <meta http-equiv="Content-Type" content="width=device-width, height=device-height, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" name="viewport">
   <link rel="stylesheet" href="common/normalize.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   <link rel="stylesheet" href="common/base.css">
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="res/css/index.css">
+  <link rel="stylesheet" href="common/media.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,900">
+  <script src="https://use.fontawesome.com/d50db568ae.js"></script>
+  <title>Portfolio</title>
 </head>
 <body>
-  <div class="g-container">
-    <section class="info">
-      <h4>Find Me On</h4>
-      <a href="https://github.com/DanielZhangLei"><i class="large github icon"></i></a>
-      <a href="https://www.linkedin.com/in/danielvzhang"><i class="large linkedin icon"></i></a>
-      <a href="mailto:danielvmaple@gmail.com" target="_top"><i class="large mail outline icon"></i></a>
-    </section>
-    <section class="content">
-      <h1>Front End Developer</h1>
-      <a class="ui inverted button" href="https://danielzhanglei.github.io/portfolio/">Portfolio</a>
-      <a class="ui inverted button" href="https://uptowork.com/mycv/danielzhang">Resume</a>
-    </section>
-  </div>
+  <div id="app">
+    <nav class="g-nav navbar navbar-expand-md">
+      <div class="container-fluid">
+        <div class="navbar-brand">
+          <a href="http://danielzhanglei.github.io/portfolio">
+            <img src="res/img/navbar/nav-dz-logo-maincolor.svg" width="200" height="40" alt="DZ LOGO">
+          </a>
+        </div><!-- end navbar-header -->
+        <div class="collapse navbar-collapse justify-content-end">
+          <ul class="navbar-nav">
+            <li><a href="https://uptowork.com/mycv/danielzhang"><i class="fa fa-car" aria-hidden="true"></i>&nbsp; Projects</a></li>
+            <li><a href="https://uptowork.com/mycv/danielzhang"><i class="fa fa-superpowers" aria-hidden="true"></i>&nbsp; Resume</a></li>
+          </ul>
+        </div><!-- end navbar-collapse -->
+      </div><!-- end nav container-fluid -->
+    </nav><!-- end nav -->
+    <div class="g-body text-center">
+      <div class="container">
+        <section class="intro-section">
+          <div class="row">
+            <div class="col-md-7 middle-center">
+              <h1>A huge HTML, CSS, JavaScript lover</h1>
+              <h3>Front End Developer</h3>
+            </div>
+            <div class="col-md-5">
+              <img src="res/img/body/intro-section.svg" alt="intro-vector">
+            </div>
+          </div>
+          <div class="row">
+            <a href="https://www.freepik.com/" class="btn-default">View Projects</a>
+          </div>
+        </section>
+        <section class="ui-section">
+          <div class="row">
+            <div class="col-md-5">
+              <img src="res/img/body/ui-section.svg" alt="ui-vector">
+            </div>
+            <div class="col-md-7 middle-center">
+              <h1>UI &amp; UX Design</h1>
+              <h3>Pretty &amp; Responsive &amp; Cross-browsers &amp; usability &amp; accessibility</h3>
+            </div>
+          </div>
+        </section>
+        <div class="row bike-block">
+          <div class="col-md-12">
+            <img src="res/img/body/bikes.svg" alt="bikes">
+          </div>
+        </div>
+        <section class="team-section">
+          <div class="row">
+            <div class="col-md-7 middle-center">
+              <h1>Team Work</h1>
+              <h3>Communication &amp; Problem-Solving</h3>
+            </div>
+            <div class="col-md-5">
+              <img src="res/img/body/team-section.svg" alt="team-vector">
+            </div>
+          </div>
+        </section>
+        <section class="work-env-section">
+          <div class="row">
+            <div class="col-md-12">
+              <img src="res/img/body/work-env.svg" alt="work-vector">
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <footer class="g-footer">
+      <div class="container-fluid">
+        <div class="row align-items-center group">
+          <div class="col-md-5 col-sm-12">
+            <p><i class="fa fa-copyright" aria-hidden="true"></i> 2017 | Daniel Z. | Made with &nbsp;<i class="fa fa-heart" aria-hidden="true"></i> &nbsp;in Vancouver</p>
+          </div>
+          <div class="col-md-3 col-sm-12">
+            <ul class="clearfix">
+              <li><a href="https://www.linkedin.com/in/danielvzhang/"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></li>
+              <li><a href="https://github.com/DanielZhangLei"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></li>
+              <li><a href="mailto:danielvmaple@gmail.com"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <a href="https://www.freepik.com/"><i class="fa fa-space-shuttle" aria-hidden="true"></i>&nbsp; Images designed by freepik</a>
+          </div>
+        </div>
+      </div><!-- end footer container-fluid -->
+    </footer><!-- end footer -->
+  </div><!-- end app -->
+  
+  <script src="res/js/main.js"></script>
 </body>
 </html>

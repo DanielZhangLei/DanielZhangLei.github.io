@@ -1,0 +1,51 @@
+/* large screen to extra large: from 992px to 1200px */
+@media only screen and (max-width: 1200px) {
+
+  /* common use */
+  h1 {
+    font-size: 4em;
+  }
+}
+
+/* Medium tablets to large screen: from 768px to 991px */
+@media only screen and (max-width: 991px) {
+
+  /* common use */
+  h1 {
+    font-size: 3em;
+  }
+
+  .middle-center {
+    padding: 5em 0;
+    height: 100%;
+  }
+
+  /* Main body */
+  .g-body .bike-block{
+    padding: 2em 5em;
+  }
+}
+/* Small phones to small tablets: from 576px to 767px */
+@media only screen and (max-width: 767px) {
+
+  /* common use */
+  h1 {
+    font-size: 4em;
+  }
+
+  /* Main body */
+  .g-body .bike-block{
+    margin: .5em auto;
+    padding: 2em 2em;
+  }
+
+  /* footer */
+  .g-footer .group div {
+    margin-bottom: 1.5em;
+  }
+}
+
+/* Small phones: from 0 to 575px */
+@media only screen and (max-width: 575px) {
+
+}
