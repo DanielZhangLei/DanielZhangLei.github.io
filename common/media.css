@@ -5,6 +5,10 @@
   h1 {
     font-size: 4em;
   }
+
+  h3 {
+    font-size: 1.7em;
+  }
 }
 
 /* Medium tablets to large screen: from 768px to 991px */
@@ -15,9 +19,26 @@
     font-size: 3em;
   }
 
+  h3 {
+    font-size: 1.5em;
+  }
+
   .middle-center {
     padding: 5em 0;
-    height: 100%;
+  }
+
+  .fs {
+    font-size: 0.87rem;
+  }
+
+  /* header */
+  .g-nav .dz-logo {
+    width: 150px;
+    height: 30px;
+  }
+
+  .g-nav li a {
+    font-size: 1.3em;
   }
 
   /* Main body */
@@ -29,8 +50,8 @@
 @media only screen and (max-width: 767px) {
 
   /* common use */
-  h1 {
-    font-size: 4em;
+  .middle-center {
+    padding: 2.5em 0;
   }
 
   /* Main body */
@@ -45,7 +66,45 @@
   }
 }
 
-/* Small phones: from 0 to 575px */
+/* Small phones: from 421px to 575px */
 @media only screen and (max-width: 575px) {
+
+  /* common use */
+  h1 {
+    font-size: 3.1em;
+  }
+
+  h3 {
+    font-size: 1.15em;
+  }
+
+  .middle-center {
+    padding: 2em 1em;
+  }
+
+  .fs {
+    font-size: 0.75rem;
+  }
+
+  /* Header */
+  .g-nav {
+    margin-top: 0;
+  }
+
+  /* header */
+  .g-nav .dz-logo {
+    width: 125px;
+    height: 25px;
+  }
+
+}
+
+/* Small phones: from 0 to 420px (iPhone 4 to iPhone 6+)*/ 
+@media only screen and (max-width: 420px) {
+
+  /* common use */
+  h1 {
+    font-size: 2.3em;
+  }
 
 }

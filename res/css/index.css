@@ -9,6 +9,7 @@ body {
 h1 {
   font-size: 5em;
   font-weight: 900;
+  /* margin: 2em auto 2em; */
 }
 
 h3 {
@@ -17,7 +18,6 @@ h3 {
 
 .middle-center {
   padding: 8em 0;
-  height: 100%;
 }
 
 /* Header */
@@ -39,18 +39,9 @@ h3 {
 }
 
 /* Main body */
-
-.g-body .intro-section img,
-.g-body .ui-section img,
-.g-body .team-section img {
-  max-width: 420px;
-  max-height: 420px;
-}
-
 .g-body .intro-section,
 .g-body .ui-section {
   max-width: 75em;
-  /* max-height: 40em; */
 }
 
 .g-body .intro-section {
@@ -71,7 +62,7 @@ h3 {
 }
 
 .g-body .ui-section {
-  margin: 3em auto 0;
+  /* margin: .5em auto 0; */
 }
 
 .g-body .bike-block{
@@ -79,6 +70,9 @@ h3 {
   padding: 2em 10em;
 }
 
+.g-body .work-env-section {
+  margin-top: 2em;
+}
 
 /* Footer */
 .g-footer,
@@ -88,14 +82,14 @@ h3 {
 
 .g-footer {
   height: 7em;
-  margin-top: 5em;
+  margin-top: 2em;
   text-align: center;
 }
 
-.g-footer li {
+.g-footer .socialIcon li {
   display: inline-block;
+  padding: 8px;
 }
 
-.g-footer li a {
-  margin-right: 1.5em;
-}
+
+
