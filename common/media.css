@@ -59,11 +59,6 @@
     margin: .5em auto;
     padding: 2em 2em;
   }
-
-  /* footer */
-  .g-footer .group div {
-    margin-bottom: 1.5em;
-  }
 }
 
 /* Small phones: from 421px to 575px */
@@ -86,12 +81,11 @@
     font-size: 0.75rem;
   }
 
-  /* Header */
+  /* header */
   .g-nav {
     margin-top: 0;
   }
 
-  /* header */
   .g-nav .dz-logo {
     width: 125px;
     height: 25px;
