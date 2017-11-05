@@ -81,9 +81,12 @@ h3 {
 }
 
 .g-footer {
-  height: 7em;
   margin-top: 2em;
   text-align: center;
+}
+
+.g-footer .group {
+  padding-bottom: 2em;
 }
 
 .g-footer .socialIcon li {
