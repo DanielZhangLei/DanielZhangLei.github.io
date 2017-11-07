@@ -161,11 +161,12 @@
     width: 100%;
     height: 100%;
     font-size: .9rem;
-    z-index: 1;
     opacity: 0;
+    visibility: hidden;
     justify-content: center;
     align-items: center;
-    transition: opacity .3s ease-in-out;
+    transition: .3s ease-in-out;
+    z-index: 1;
   }
 
   .g-nav .nav-list ul{
@@ -182,6 +183,7 @@
 
   .g-nav .nav-list-visible {
     opacity: 1;
+    visibility: visible;
     background-color: #09c6a2;
   }
 }
