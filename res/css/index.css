@@ -1,15 +1,20 @@
-body {
-  font: 400 14px 'Lato', sans-serif;
-  background-color: #09c6a2;
-  color: #fff;
-  width: 100%;
+/* *************** */
+/* Commom use */
+/* *************** */
+html {
+  font-size: 125%;
 }
 
-/* Commom use */
+body {
+  font: 400 14px 'Lato', sans-serif;
+  color: #fff;
+  background-color: #09c6a2;
+  width: 100%;
+}
+  
 h1 {
   font-size: 5em;
   font-weight: 900;
-  /* margin: 2em auto 2em; */
 }
 
 h3 {
@@ -20,7 +25,13 @@ h3 {
   padding: 8em 0;
 }
 
+.noscroll {
+  overflow: hidden;
+}
+
+/* *************** */
 /* Header */
+/* *************** */
 .g-nav {
   margin-top: 2em;
 }
@@ -38,7 +49,23 @@ h3 {
   border-bottom: 2px solid #fff;
 }
 
+.g-nav .nav-toggle.close-x i {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.g-nav .nav-toggle.close-x i::before {
+  transform: translateY(0.3rem) rotate(45deg) scaleX(1.1);
+}
+
+.g-nav .nav-toggle.close-x i::after {
+  transform: translateY(-0.3rem) rotate(-45deg) scaleX(1.1);
+}
+
+
+/* *************** */
 /* Main body */
+/* *************** */
+
 .g-body .intro-section,
 .g-body .ui-section {
   max-width: 75em;
@@ -74,7 +101,10 @@ h3 {
   margin-top: 2em;
 }
 
+/* *************** */
 /* Footer */
+/* *************** */
+
 .g-footer,
 .g-footer .group {
   height: 7em;
