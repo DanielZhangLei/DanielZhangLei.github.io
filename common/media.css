@@ -109,10 +109,13 @@
     margin-top: 0;
   }
 
-  .g-nav .dz-logo {
+  .g-nav .logoWrapper {
+    z-index: 1;
+  }
+
+  .g-nav .dz-logo{
     width: 125px;
     height: 25px;
-    z-index: 2;
   }
 
   /* mobile menu icon */
@@ -122,7 +125,7 @@
     height: 1.6rem;
     right: .8rem;
     margin-top: .2rem;
-    z-index: 2;
+    z-index: 1;
   }
 
   .g-nav .nav-toggle i,
@@ -166,7 +169,6 @@
     justify-content: center;
     align-items: center;
     transition: .3s ease-in-out;
-    z-index: 1;
   }
 
   .g-nav .nav-list ul{
