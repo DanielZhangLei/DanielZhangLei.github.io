@@ -1,28 +1,33 @@
 /* *************** */
 /* Commom use */
 /* *************** */
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
 html {
-  font-size: 125%;
+  font-size: 20px;
 }
 
 body {
-  font: 400 14px 'Lato', sans-serif;
+  font: 400 12px 'Lato', sans-serif;
   color: #fff;
   background-color: #09c6a2;
-  width: 100%;
 }
-  
+
 h1 {
-  font-size: 5em;
+  font-size: 3rem;
   font-weight: 900;
 }
 
 h3 {
-  padding-top: .4em;
+  padding-top: 0.25rem;
 }
 
 .middle-center {
-  padding: 8em 0;
+  margin: auto;
 }
 
 .noscroll {
@@ -32,88 +37,87 @@ h3 {
 /* *************** */
 /* Header */
 /* *************** */
-.g-nav {
-  margin-top: 2em;
+.g-header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding-top: 1rem;
   background-color: #09c6a2;
+  z-index: 9999;
 }
 
-.g-nav li a {
-  font-size: 1.5em;
+.g-header .dz-logo {
+  position: relative;
+  width: 8.75rem;
+  height: 1.75rem;
+  z-index: 1;
+  transition: font-size .3s;
+}
+
+.g-header li a {
+  font-size: 0.9rem;
   font-weight: 700;
-  padding-bottom: .5em;
-  margin-right: 1.5em;
+  padding-bottom: 0.3rem;
+  margin-left: 0.9rem;
   border-bottom: 2px solid transparent;
   transition: border-bottom .3s;
 }
 
-.g-nav li a:hover {
+.g-header li a:hover {
   border-bottom: 2px solid #fff;
 }
-
-.g-nav .nav-toggle.close-x i {
-  background-color: rgba(0, 0, 0, 0);
-}
-
-.g-nav .nav-toggle.close-x i::before {
-  transform: translateY(0.3rem) rotate(45deg) scaleX(1.1);
-}
-
-.g-nav .nav-toggle.close-x i::after {
-  transform: translateY(-0.3rem) rotate(-45deg) scaleX(1.1);
-}
-
 
 /* *************** */
 /* Main body */
 /* *************** */
+.g-body {
+  margin-top: 7.5rem;
+}
 
-.g-body .intro-section,
-.g-body .ui-section {
-  max-width: 75em;
+.g-body .intro-section img,
+.g-body .ui-section img,
+.g-body .team-section img {
+  max-width: 20rem;
 }
 
 .g-body .intro-section {
-  margin: 5em auto 0;
+  padding-bottom: 4rem;
 }
 
 .g-body .intro-section .btn-default {
-  font-size: 2em;
+  font-size: 1.2rem;
   background-color: transparent;
-  border-radius: .2em;
+  border-radius: 0.4rem;
   border: 2px solid white;
-  margin: 2em auto 3em;
-  padding: .4em;
+  margin: 1.2rem auto 1.8rem;
+  padding: .5rem;
 }
 
 .g-body .intro-section .btn-default:hover {
   background-color: #08b695;
 }
 
-.g-body .ui-section {
-  /* margin: .5em auto 0; */
+.g-body .bike-block {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
-.g-body .bike-block{
-  margin: 2em auto;
-  padding: 2em 10em;
+.g-body .bike-block img {
+  max-width: 35rem;
 }
 
 .g-body .work-env-section {
-  margin-top: 2em;
+  margin-top: 4rem;
 }
 
 /* *************** */
 /* Footer */
 /* *************** */
 
-.g-footer,
-.g-footer .group {
-  height: 7em;
-}
-
 .g-footer {
-  margin: 2em 0;
-  text-align: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .g-footer .socialIcon li {

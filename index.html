@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="Content-Type" content="width=device-width, height=device-height, initial-scale=1.0" name="viewport">
-  <link rel="stylesheet" href="common/normalize.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   <link rel="stylesheet" href="common/base.css">
   <link rel="stylesheet" href="res/css/index.css">
@@ -14,30 +13,30 @@
 </head>
 <body>
   <div id="app">
-    <nav class="g-nav navbar navbar-expand-sm sticky-top">
+    <header class="g-header navbar navbar-expand-md justify-content-start">
       <div class="container-fluid">
-        <div class="navbar-brand logoWrapper">
-          <a href="/">
-            <img src="res/img/navbar/nav-dz-logo-white.svg" class="dz-logo" width="200" height="40" alt="DZ LOGO">
-          </a>
-        </div><!-- end navbar-header -->
-        <div class="nav-toggle">
-          <i class="middle-icon"></i>
-        </div> <!-- nav-toggle -->
-        <div class="nav-list">
+        <a class="navbar-brand logoWrapper" href="/">
+          <img src="res/img/navbar/nav-dz-logo-white.svg" class="dz-logo" alt="DZ LOGO">
+        </a> <!-- end navbar-brand -->
+        <div class="nav-toggle ml-auto">
+          <i></i>
+          <i></i>
+          <i></i>
+        </div> <!-- end nav-toggle -->
+        <nav class="nav-list">
           <ul class="navbar-nav">
             <li><a href="https://danielzhanglei.github.io/portfolio"><i class="fa fa-car" aria-hidden="true"></i>&nbsp; Projects</a></li>
             <li><a href="https://uptowork.com/mycv/danielzhang"><i class="fa fa-superpowers" aria-hidden="true"></i>&nbsp; Resume</a></li>
           </ul>
-        </div><!-- end nav-list -->
-      </div><!-- end nav container-fluid -->
-    </nav><!-- end nav -->
+        </nav> <!-- end nav-list -->
+      </div>
+    </header> <!-- end header -->
     <div class="g-body text-center">
       <div class="container">
         <section class="intro-section">
           <div class="row">
             <div class="col-md-7 middle-center">
-              <h1>A huge HTML, CSS, JavaScript lover</h1>
+              <h1>A huge HTML, CSS, <br/>JavaScript lover</h1>
               <h3>Front End Developer</h3>
             </div>
             <div class="col-md-5">
@@ -45,7 +44,7 @@
             </div>
           </div>
           <div class="row">
-            <a href="/" class="btn-default">View Projects</a>
+            <a href="https://danielzhanglei.github.io/portfolio" class="btn-default">View Projects</a>
           </div>
         </section>
         <section class="ui-section">
@@ -55,7 +54,7 @@
             </div>
             <div class="col-md-7 middle-center">
               <h1>UI &amp; UX Design</h1>
-              <h3>Pretty &amp; Responsive &amp; Cross-browsers &amp; Usability &amp; Accessibility</h3>
+              <h3>Pretty &amp; Responsive &amp; Cross-browsers <br/>Usability &amp; Accessibility</h3>
             </div>
           </div>
         </section>
@@ -84,10 +83,10 @@
         </section>
       </div>
     </div>
-    <footer class="g-footer fs">
+    <footer class="g-footer text-center">
       <div class="container-fluid">
         <div class="row align-items-center group">
-          <div class="col-md-5 col-sm-12 copyright">
+          <div class="col-md-5 col-sm-12">
             <p><i class="fa fa-copyright" aria-hidden="true"></i> 2017 | Daniel Z. | Made with &nbsp;<i class="fa fa-heart" aria-hidden="true"></i> &nbsp;in Vancouver</p>
           </div>
           <div class="col-md-3 col-sm-12 socialIcon">
@@ -100,10 +99,10 @@
           <div class="col-md-4 col-sm-12">
             <a href="https://www.freepik.com/"><i class="fa fa-space-shuttle" aria-hidden="true"></i>&nbsp; Images designed by freepik</a>
           </div>
-        </div><!-- end footer group -->
-      </div><!-- end footer container-fluid -->
-    </footer><!-- end footer -->
-  </div><!-- end app -->
+        </div> <!-- end footer group -->
+      </div> <!-- end footer container-fluid -->
+    </footer> <!-- end footer -->
+  </div> <!-- end app -->
   
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="res/js/main.js"></script>
